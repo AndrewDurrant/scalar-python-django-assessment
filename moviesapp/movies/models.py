@@ -18,6 +18,9 @@ class Movie(models.Model):
     updated_at = models.DateTimeField(auto_now=True, editable=False)
     # Todo: add Rating models
 
+class Rating(models.Model):
+    
+
     def __str__(self):
         return self.title
 
